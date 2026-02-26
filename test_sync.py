@@ -1,6 +1,12 @@
 """
 GitHub 동기화 테스트용 스크립트
 """
+# 버전 1: 기본 덧셈 함수
+
+def add(a, b):
+    return a + b
+
+print(add(1, 2))
 
 import platform
 import datetime

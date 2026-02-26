@@ -6,7 +6,11 @@ GitHub 동기화 테스트용 스크립트
 def add(a, b):
     return a + b
 
+def subtract(a, b):
+    return a - b
+
 print(add(1, 2))
+print(subtract(5, 3))
 
 import platform
 import datetime
